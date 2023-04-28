@@ -5,8 +5,9 @@ const Cards = () => {
   return (
     <div className="flex flex-col py-16 px-16 gap-y-5">
       {/* container */}
+      {/* row-1 */}
       <div className="flex flex-row gap-5 justify-center">
-        <div className="bg-gray-extra justify-center rounded-3xl hover:bg-black w-96 h-32 flex flex-col gap-1 shadow-md px-2">
+        <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-400 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2">
           <Image
             src="/images/huaysod.png"
             alt="huaysod"
@@ -15,16 +16,16 @@ const Cards = () => {
           />
           <div className="flex flex-row justify-between px-2">
             <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
+              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
                 <p>3ตัว</p>
               </div>
-              <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
+              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
                 <p>950</p>
               </div>
             </div>
 
             <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
+              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
                 <p>2ตัว</p>
               </div>
               <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
@@ -34,26 +35,40 @@ const Cards = () => {
           </div>
           {/* finish w-96 h-32 items-center = y justify-center = x*/}
         </div>
+        {/* Progress bar */}
         <div className="bg-gray-extra p-5 rounded-3xl w-96 h-32 flex flex-col justify-center shadow-md gap-1">
-          <div className="font-semibold">
-            <div className="flex flex-row justify-between">
-              <p>Jan 23</p>
-              Loading
+          <div className="flex flex-col gap-2 font-semibold">
+            <div className="flex flex-row gap-2 justify-between">
+              <div className="mr-1">
+                <p>Jan</p>
+              </div>
+              <div className="w-72 h-full bg-black-load text-white text-center rounded-full">
+                <p>1M</p>
+              </div>
             </div>
             <div className="flex flex-row justify-between">
-              <p>Feb 23</p>
-              Loading
+              <div className="mr-1">
+                <p>Feb</p>
+              </div>
+              <div className="w-72 h-full bg-black-load text-white text-center rounded-full">
+                <p>800K</p>
+              </div>
             </div>
             <div className="flex flex-row justify-between">
-              <p>Mar 23</p>
-              Loading
+              <div className="mr-1">
+                <p>Mar</p>
+              </div>
+              <div className="w-72 h-full bg-black-load text-white text-center rounded-full">
+                <p>985K</p>
+              </div>
             </div>
           </div>
         </div>
+        {/* Progress bar */}
       </div>
       {/* row-2 */}
       <div className="flex flex-row gap-5 justify-center">
-        <div className="bg-gray-extra justify-center rounded-3xl hover:bg-black w-96 h-32 flex flex-col gap-1 shadow-md px-2">
+        <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-400 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2">
           <Image
             src="/images/huaysod.png"
             alt="huaysod"
@@ -62,16 +77,16 @@ const Cards = () => {
           />
           <div className="flex flex-row justify-between px-2">
             <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
+              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
                 <p>3ตัว</p>
               </div>
-              <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
+              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
                 <p>950</p>
               </div>
             </div>
 
             <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
+              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
                 <p>2ตัว</p>
               </div>
               <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
@@ -79,15 +94,35 @@ const Cards = () => {
               </div>
             </div>
           </div>
-          {/* finish w-96 h-32 items-cent = y justify-center = x*/}
         </div>
-        <div className="bg-gray-extra px-2 rounded-3xl w-96 h-32 flex flex-col justify-center shadow-md gap-1">
-          <Image
-            src="/images/huaysod.png"
-            alt="huaysod"
-            width={512}
-            height={96}
-          />
+        {/* finish w-96 h-32 items-cent = y justify-center = x*/}
+        <div className="bg-gray-extra p-5 rounded-3xl w-96 h-32 flex flex-col justify-center shadow-md gap-1">
+          <div className="flex flex-col gap-2 font-semibold">
+            <div className="flex flex-row gap-2 justify-between">
+              <div className="mr-1">
+                <p>Jan</p>
+              </div>
+              <div className="w-72 h-full bg-black-load text-white text-center rounded-full">
+                <p>1M</p>
+              </div>
+            </div>
+            <div className="flex flex-row justify-between">
+              <div className="mr-1">
+                <p>Feb</p>
+              </div>
+              <div className="w-72 h-full bg-black-load text-white text-center rounded-full">
+                <p>800K</p>
+              </div>
+            </div>
+            <div className="flex flex-row justify-between">
+              <div className="mr-1">
+                <p>Mar</p>
+              </div>
+              <div className="w-72 h-full bg-black-load text-white text-center rounded-full">
+                <p>985K</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* container - end */}
