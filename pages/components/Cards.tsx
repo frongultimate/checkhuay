@@ -11,8 +11,8 @@ const Cards = () => {
           <Image
             src="/images/huaysod.png"
             alt="huaysod"
-            width={512}
-            height={96}
+            width={368}
+            height={69}
           />
           <div className="flex flex-row justify-between px-2">
             <div className="flex gap-x-1">
@@ -50,7 +50,7 @@ const Cards = () => {
               <div className="mr-1">
                 <p>Feb</p>
               </div>
-              <div className="w-72 h-full bg-black-load text-white text-center rounded-full">
+              <div className="w-72 h-full bg-orange-extra text-white text-center rounded-full">
                 <p>800K</p>
               </div>
             </div>
@@ -70,10 +70,10 @@ const Cards = () => {
       <div className="flex flex-row gap-5 justify-center">
         <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-400 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2">
           <Image
-            src="/images/huaysod.png"
+            src="/images/fox888.png"
             alt="huaysod"
-            width={512}
-            height={96}
+            width={368}
+            height={69}
           />
           <div className="flex flex-row justify-between px-2">
             <div className="flex gap-x-1">
@@ -95,7 +95,7 @@ const Cards = () => {
             </div>
           </div>
         </div>
-        {/* finish w-96 h-32 items-cent = y justify-center = x*/}
+        {/* finish w-96 h-32 items-center = y justify-center = x*/}
         <div className="bg-gray-extra p-5 rounded-3xl w-96 h-32 flex flex-col justify-center shadow-md gap-1">
           <div className="flex flex-col gap-2 font-semibold">
             <div className="flex flex-row gap-2 justify-between">
