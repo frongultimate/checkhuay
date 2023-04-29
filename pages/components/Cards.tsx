@@ -6,7 +6,7 @@ const Cards = () => {
     <div className="flex flex-col py-16 px-16 gap-y-5">
       {/* container */}
       {/* row-1 */}
-      <div className="flex flex-row gap-5 justify-center">
+      <div className="flex flex-row gap-5 justify-center md: flex-wrap">
         <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-400 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2">
           <Image
             src="/images/huaysod.png"
@@ -67,7 +67,7 @@ const Cards = () => {
         {/* Progress bar */}
       </div>
       {/* row-2 */}
-      <div className="flex flex-row gap-5 justify-center">
+      <div className="flex flex-row gap-5 justify-center md: flex-wrap">
         <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-400 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2">
           <Image
             src="/images/fox888.png"
