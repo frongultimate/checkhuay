@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <Head>
-        <title>Check Huay Online</title>
+        <title>Check Huay | Online</title>
       </Head>
       <Navbar />
       <Cards />
