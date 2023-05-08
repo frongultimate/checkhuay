@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Cards = () => {
   return (
-    <div className="flex flex-col py-16 px-16 gap-y-5">
+    <div className="flex flex-col py-5 px-2 gap-y-5">
       {/* Huaysod */}
       {/* Huaysod */}
       {/* Huaysod */}
