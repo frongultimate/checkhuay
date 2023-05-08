@@ -387,7 +387,7 @@ const Cards = () => {
           <Image
             src="/images/lotto432.png"
             alt="huaysod"
-            width={400}
+            width={320}
             height={96}
           />
           <div className="flex flex-row gap-32">
