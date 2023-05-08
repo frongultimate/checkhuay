@@ -14,7 +14,7 @@ const Cards = () => {
             <Image
               src="/images/huaysod.png"
               alt="huaysod"
-              width={349}
+              width={350}
               height={69}
             />
             <div className="flex flex-row gap-32">
