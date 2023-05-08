@@ -14,7 +14,7 @@ const Cards = () => {
             <Image
               src="/images/huaysod.png"
               alt="huaysod"
-              width={400}
+              width={380}
               height={69}
             />
             <div className="flex flex-row gap-32">
@@ -77,7 +77,7 @@ const Cards = () => {
           <Image
             src="/images/fox888.png"
             alt="huaysod"
-            width={400}
+            width={380}
             height={96}
           />
           <div className="flex flex-row gap-32">
@@ -139,7 +139,7 @@ const Cards = () => {
           <Image
             src="/images/dnabet.png"
             alt="huaysod"
-            width={400}
+            width={380}
             height={96}
           />
           <div className="flex flex-row gap-32">
@@ -201,7 +201,7 @@ const Cards = () => {
           <Image
             src="/images/uwin789.png"
             alt="huaysod"
-            width={400}
+            width={380}
             height={96}
           />
           <div className="flex flex-row gap-32">
@@ -263,7 +263,7 @@ const Cards = () => {
           <Image
             src="/images/chudjenbet.gif"
             alt="huaysod"
-            width={400}
+            width={280}
             height={96}
           />
           <div className="flex flex-row gap-32">
@@ -325,8 +325,8 @@ const Cards = () => {
           <Image
             src="/images/kerry899plus.png"
             alt="huaysod"
-            width={260}
-            height={0}
+            width={300}
+            height={96}
           />
           <div className="flex flex-row gap-32">
             <div className="flex gap-x-1">
@@ -387,7 +387,7 @@ const Cards = () => {
           <Image
             src="/images/lotto432.png"
             alt="huaysod"
-            width={300}
+            width={400}
             height={96}
           />
           <div className="flex flex-row gap-32">
