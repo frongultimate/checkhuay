@@ -322,7 +322,7 @@ const Cards = () => {
           <Image
             src="/images/kerry899plus.png"
             alt="huaysod"
-            width={368}
+            width={320}
             height={69}
           />
           <div className="flex flex-row gap-32">
@@ -384,7 +384,7 @@ const Cards = () => {
           <Image
             src="/images/lottovip.png"
             alt="huaysod"
-            width={368}
+            width={320}
             height={69}
           />
           <div className="flex flex-row gap-32">
