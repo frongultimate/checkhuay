@@ -17,7 +17,7 @@ const Cards = () => {
             <Image
               src="/images/huaysod.png"
               alt="huaysod"
-              width={380}
+              width={1000}
               height={69}
             />
             <div className="flex flex-row gap-32">
@@ -143,33 +143,38 @@ const Cards = () => {
       {/* DNABET */}
       {/* DNABET */}
       <div className="flex flex-row gap-5 justify-center sm: flex-wrap">
-        <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-300 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2 items-center cursor-pointer">
-          <Image
-            src="/images/dnabet.png"
-            alt="huaysod"
-            width={380}
-            height={96}
-          />
-          <div className="flex flex-row gap-32">
-            <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>3ตัว</p>
+        <Link
+          href="https://dnabet.com/register?ref=gFkpzOyMDfOHFSQHCeayiya1nOi61n6sNVy1"
+          target="_blank"
+        >
+          <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-300 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2 items-center cursor-pointer">
+            <Image
+              src="/images/dnabet.png"
+              alt="huaysod"
+              width={380}
+              height={96}
+            />
+            <div className="flex flex-row gap-32">
+              <div className="flex gap-x-1">
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>3ตัว</p>
+                </div>
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>950</p>
+                </div>
               </div>
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>950</p>
-              </div>
-            </div>
 
-            <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>2ตัว</p>
-              </div>
-              <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
-                <p>95</p>
+              <div className="flex gap-x-1">
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>2ตัว</p>
+                </div>
+                <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
+                  <p>95</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Link>
         {/* Progress bar */}
         {/* finish w-96 h-32 items-center = y justify-center = x*/}
         <div className="bg-gray-extra p-5 rounded-3xl w-96 h-32 flex flex-col justify-center shadow-md gap-1">
@@ -201,37 +206,42 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      {/* uwin789 */}
-      {/* uwin789 */}
-      {/* uwin789 */}
+      {/* mungmee */}
+      {/* mungmee */}
+      {/* mungmee */}
       <div className="flex flex-row gap-5 justify-center sm: flex-wrap">
-        <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-300 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2 items-center cursor-pointer">
-          <Image
-            src="/images/uwin789.png"
-            alt="huaysod"
-            width={380}
-            height={96}
-          />
-          <div className="flex flex-row gap-32">
-            <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>3ตัว</p>
+        <Link
+          href="https://www.phetlotto.com/#/register?af=c55c7cb4-04b6-37ee-90d6-f84b3f658e39"
+          target="_blank"
+        >
+          <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-300 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2 items-center cursor-pointer">
+            <Image
+              src="/images/mungmee.png"
+              alt="huaysod"
+              width={1000}
+              height={96}
+            />
+            <div className="flex flex-row gap-32">
+              <div className="flex gap-x-1">
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>3ตัว</p>
+                </div>
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>950</p>
+                </div>
               </div>
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>950</p>
-              </div>
-            </div>
 
-            <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>2ตัว</p>
-              </div>
-              <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
-                <p>95</p>
+              <div className="flex gap-x-1">
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>2ตัว</p>
+                </div>
+                <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
+                  <p>95</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Link>
         {/* Progress bar */}
         {/* finish w-96 h-32 items-center = y justify-center = x*/}
         <div className="bg-gray-extra p-5 rounded-3xl w-96 h-32 flex flex-col justify-center shadow-md gap-1">
