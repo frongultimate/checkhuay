@@ -211,7 +211,7 @@ const Cards = () => {
       {/* mungmee */}
       <div className="flex flex-row gap-5 justify-center sm: flex-wrap">
         <Link
-          href="https://www.phetlotto.com/#/register?af=c55c7cb4-04b6-37ee-90d6-f84b3f658e39"
+          href="https://www.mungmeelotto.com/#/register?af=c55c7cb4-04b6-37ee-90d6-f84b3f658e39"
           target="_blank"
         >
           <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-300 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2 items-center cursor-pointer">
