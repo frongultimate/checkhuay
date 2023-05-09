@@ -151,7 +151,7 @@ const Cards = () => {
             <Image
               src="/images/dnabet.png"
               alt="huaysod"
-              width={1000}
+              width={380}
               height={96}
             />
             <div className="flex flex-row gap-32">
