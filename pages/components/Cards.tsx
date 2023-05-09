@@ -9,7 +9,10 @@ const Cards = () => {
       {/* Huaysod */}
       {/* Huaysod */}
       <div className="flex flex-row gap-5 justify-center sm: flex-wrap">
-        <Link href="https://huaysod.net/signup?aff=4c13b98732a&fbclid=IwAR1ik_BXBf7BzHNq-IJ3p5_7lD14l9Eo89Wl1HS48rjUfWS3BJYhV-Si_qU">
+        <Link
+          href="https://huaysod.net/signup?aff=4c13b98732a&fbclid=IwAR1ik_BXBf7BzHNq-IJ3p5_7lD14l9Eo89Wl1HS48rjUfWS3BJYhV-Si_qU"
+          target="_blank"
+        >
           <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-300 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2 items-center cursor-pointer">
             <Image
               src="/images/huaysod.png"
@@ -47,7 +50,7 @@ const Cards = () => {
                 <p>Jan</p>
               </div>
               <div className="w-72 h-full bg-black-load text-white text-center rounded-full">
-                <p>1M</p>
+                <span>1M</span>
               </div>
             </div>
             <div className="flex flex-row justify-between">
@@ -55,7 +58,7 @@ const Cards = () => {
                 <p>Feb</p>
               </div>
               <div className="w-72 h-full bg-orange-extra text-white text-center rounded-full">
-                <p>800K</p>
+                <span>800K</span>
               </div>
             </div>
             <div className="flex flex-row justify-between">
@@ -63,7 +66,7 @@ const Cards = () => {
                 <p>Mar</p>
               </div>
               <div className="w-72 h-full bg-black-load text-white text-center rounded-full">
-                <p>985K</p>
+                <span>985K</span>
               </div>
             </div>
           </div>
@@ -73,33 +76,38 @@ const Cards = () => {
       {/* Fox888 */}
       {/* Fox888 */}
       <div className="flex flex-row gap-5 justify-center sm: flex-wrap">
-        <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-300 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2 items-center cursor-pointer">
-          <Image
-            src="/images/fox888.png"
-            alt="huaysod"
-            width={380}
-            height={96}
-          />
-          <div className="flex flex-row gap-32">
-            <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>3ตัว</p>
+        <Link
+          href="https://www.fox888.vip/register/3e2552de0e0c20169c750c5fb9876faf"
+          target="_blank"
+        >
+          <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-300 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2 items-center cursor-pointer">
+            <Image
+              src="/images/fox888.png"
+              alt="huaysod"
+              width={380}
+              height={96}
+            />
+            <div className="flex flex-row gap-32">
+              <div className="flex gap-x-1">
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>3ตัว</p>
+                </div>
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>980</p>
+                </div>
               </div>
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>980</p>
-              </div>
-            </div>
 
-            <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>2ตัว</p>
-              </div>
-              <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
-                <p>98</p>
+              <div className="flex gap-x-1">
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>2ตัว</p>
+                </div>
+                <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
+                  <p>98</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Link>
         {/* Progress bar */}
         {/* finish w-96 h-32 items-center = y justify-center = x*/}
         <div className="bg-gray-extra p-5 rounded-3xl w-96 h-32 flex flex-col justify-center shadow-md gap-1">
@@ -259,33 +267,38 @@ const Cards = () => {
       {/* chudjenbet */}
       {/* chudjenbet */}
       <div className="flex flex-row gap-5 justify-center sm: flex-wrap">
-        <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-300 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2 items-center cursor-pointer">
-          <Image
-            src="/images/chudjenbet.gif"
-            alt="huaysod"
-            width={280}
-            height={96}
-          />
-          <div className="flex flex-row gap-32">
-            <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>3ตัว</p>
+        <Link
+          href="https://chudjenbet.com/affiliate/pB1VDOtv4Z?fbclid=IwAR2EGtbuNF-l1NLe1PpKMsLwSsE0E0KzZkFeb4PXow-xahUkIbovqA7Vio4"
+          target="_blank"
+        >
+          <div className="bg-gray-extra justify-center rounded-3xl hover:bg-gray-300 duration-150 w-96 h-32 flex flex-col gap-1 shadow-md px-2 items-center cursor-pointer">
+            <Image
+              src="/images/chudjenbet.gif"
+              alt="huaysod"
+              width={280}
+              height={96}
+            />
+            <div className="flex flex-row gap-32">
+              <div className="flex gap-x-1">
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>3ตัว</p>
+                </div>
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>950</p>
+                </div>
               </div>
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>950</p>
-              </div>
-            </div>
 
-            <div className="flex gap-x-1">
-              <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
-                <p>2ตัว</p>
-              </div>
-              <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
-                <p>95</p>
+              <div className="flex gap-x-1">
+                <div className="bg-black py-1 px-3 text-white rounded-3xl text-center font-semibold">
+                  <p>2ตัว</p>
+                </div>
+                <div className="bg-black py-1 px-4 text-white rounded-3xl text-center font-semibold">
+                  <p>95</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Link>
         {/* Progress bar */}
         {/* finish w-96 h-32 items-center = y justify-center = x*/}
         <div className="bg-gray-extra p-5 rounded-3xl w-96 h-32 flex flex-col justify-center shadow-md gap-1">
