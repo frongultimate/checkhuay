@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Check Huay | Online</title>
       </Head>
-      <Navbar />
+      {/* <Navbar /> */}
       <Cards />
     </main>
   );
