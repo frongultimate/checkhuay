@@ -50,7 +50,7 @@ const Cards = () => {
                 <p>Feb</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-48 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-48 bg-black-load float-left rounded-full">
                   863K
                 </span>
               </div>
@@ -60,7 +60,7 @@ const Cards = () => {
                 <p>Mar</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-52 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-52 bg-black-load float-left rounded-full">
                   897K
                 </span>
               </div>
@@ -70,7 +70,7 @@ const Cards = () => {
                 <p>Apr</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-32 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-32 bg-black-load float-left rounded-full">
                   284K
                 </span>
               </div>
@@ -143,7 +143,7 @@ const Cards = () => {
                 <p>Apr</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-52 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-52 bg-black-load float-left rounded-full">
                   732K
                 </span>
               </div>
@@ -196,7 +196,7 @@ const Cards = () => {
                 <p>Feb</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-28 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-28 bg-black-load float-left rounded-full">
                   66K
                 </span>
               </div>
@@ -206,7 +206,7 @@ const Cards = () => {
                 <p>Mar</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-40 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-40 bg-black-load float-left rounded-full">
                   102K
                 </span>
               </div>
@@ -216,7 +216,7 @@ const Cards = () => {
                 <p>Apr</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-48 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-48 bg-black-load float-left rounded-full">
                   576K
                 </span>
               </div>
@@ -269,7 +269,7 @@ const Cards = () => {
                 <p>Feb</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-12 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-12 bg-black-load float-left rounded-full">
                   8K
                 </span>
               </div>
@@ -279,7 +279,7 @@ const Cards = () => {
                 <p>Mar</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-28 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-28 bg-black-load float-left rounded-full">
                   296K
                 </span>
               </div>
@@ -289,7 +289,7 @@ const Cards = () => {
                 <p>Apr</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-16 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-16 bg-black-load float-left rounded-full">
                   27K
                 </span>
               </div>
@@ -362,7 +362,7 @@ const Cards = () => {
                 <p>Apr</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-28 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-28 bg-black-load float-left rounded-full">
                   394K
                 </span>
               </div>
@@ -415,7 +415,7 @@ const Cards = () => {
                 <p>Feb</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-48 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-48 bg-black-load float-left rounded-full">
                   670K
                 </span>
               </div>
@@ -435,7 +435,7 @@ const Cards = () => {
                 <p>Apr</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-52 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-52 bg-black-load float-left rounded-full">
                   951K
                 </span>
               </div>
@@ -488,7 +488,7 @@ const Cards = () => {
                 <p>Feb</p>
               </div>
               <div className="w-72 h-full bg-gray-400 text-white text-center rounded-full">
-                <span className="w-48 bg-black-load float-left rounded-full animate-pulse">
+                <span className="w-48 bg-black-load float-left rounded-full">
                   858K
                 </span>
               </div>
